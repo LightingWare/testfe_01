@@ -1,3 +1,2 @@
-print()
-
+print("Initializing FE")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LightingWare/testfe_01/refs/heads/main/main.lua"))()
