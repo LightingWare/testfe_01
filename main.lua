@@ -57,5 +57,9 @@ end)
 mainLoop = RunService.Heartbeat:Connect(function(deltaTime)
     if not _G["Active"] then return end 
     
-    
+    local test_part = Instance.new("Part")
+
+    test_part.Size = Vector3.new(1,1,1)
+    test_part.Position = GetRootPosition() + Vector3.new(0,5,0)
+    test_part.Anchored = true
 end)
